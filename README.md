@@ -1,7 +1,6 @@
-# A template repository for Data Networks course exercise documentation
+# A repository for Data Networks course exercise documentation
 
-Please write your documentation the following markdowns created as templates under the `/documentation/` -folder.
-
+![](/documentation/E01/jamk.png)
 - [E01.md](/documentation/E01.md)
 - [E02.md](/documentation/E02.md)
 - [E03.md](/documentation/E03.md)
@@ -20,42 +19,46 @@ Please write your documentation the following markdowns created as templates und
 - [E16.md](/documentation/E16.md)
 - [E17.md](/documentation/E17.md)
 
-If you have additional material (pictures, topologies), please save them in the repository to the correct folder e.g. `/documentation/E01/jamk.png`
+Name: **Grigory**
 
-## Example markdown
+Student number: **AB0229** 
 
-### Plain text
+Student group: **TIC21S1**
 
-Name: Grigory
-Student number: AB0229
-Student group: TIC21S1
+Course code: **TTC1030-3014**
 
-### Image
+## Description 
 
-This is a reference to an image
+This is a course that I took during the second semester of my first year at [Jyväskylä University of Applied Sciences](https://www.jamk.fi/en) (JAMK)
 
-![](/documentation/E01/jamk.png)
+## Software used
 
-### Configuration example
+* EXOS - virtual switch 
+* Vyos - virtual router 
+* Lubuntu - VMs that were attached to virtual routers and switches 
+* VirtualBox - was used throughout the whole course to import VMs in .ova format  and use them 
+* VS code - was used throughout the whole course to create documentation in .md format 
+* GitLab - initially, documentation was stored on the university's GitLab
+* draw.io - was used to draw physical and logical topologies
 
-Either as a file
+## Hardware used
 
-- [switch.cfg](/documentation/switch.cfg)
+2017 MacBook Pro  
 
-Or as a blockquote/snippet
+* Intel Core i5
+* 128GB SSD
+* 8GB RAM
 
-```
-EXOS-VM.1 # show configuration
-#
-# Module devmgr configuration.
-#
-configure snmp sysContact "https://www.extremenetworks.com/support/"
-configure sys-recovery-level switch reset
+## Challenges 
 
-#
-# Module vlan configuration.
-#
-configure vlan default delete ports all
-configure vr VR-Default delete ports 1-2
-configure vr VR-Default add ports 1-2
-```
+* The main challenge for me was the lack of RAM on my laptop. The first few exercises went well but later on, I had to play Russian roulette every time I did an assignment. My OS crashed countless times.
+
+* There is always a human factor, that causes most of the problems in every IT company. Personally, it happened to me but eventually, I fixed all of the issues I caused myself :)
+
+## Time spent 
+
+For each assignment the time that I spent varied. For the first five assignments, we had full guidance thus these were done in no time, then we were released to float freely. I must admit, that it took some time to get used to it but after a few exercises my time spent significantly decreased.
+
+## Evaluation 
+
+I have done 17 out of 17 exercises, passed the exam and got a 5 for the course. 
