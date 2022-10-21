@@ -40,6 +40,7 @@ This is a course that I took during the second semester of my first year at [Jyv
 * VS code - was used throughout the whole course to create documentation in .md format 
 * GitLab - initially, documentation was stored on the university's GitLab
 * draw.io - was used to draw physical and logical topologies
+* Wireshark - was used on the lubuntu VM to test network(s).
 
 ## Hardware used
 
